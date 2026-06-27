@@ -1,0 +1,34 @@
+# === SECRETOS - NUNCA SUBIR ===
+.env
+.env.*
+*.env
+api/.env
+google-tts.json
+*.json.key
+*.pem
+
+# === Datos privados ===
+uploads/
+backups/
+cmd_files/
+
+# === Bases de datos ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Pesado y regenerable ===
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# === Respaldos comprimidos ===
+*.tar.gz
+*.zip
+
+# === Frontend builds duplicados ===
+__manus__/
+
+# === Logs ===
+*.log
